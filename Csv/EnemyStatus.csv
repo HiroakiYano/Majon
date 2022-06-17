@@ -1,0 +1,15 @@
+id(int),type(int),名前(std::string),start_x(int),start_y(int),size_w(int),size_h(int),speed(float),gravity_vel(float),block_hit(bool),img_enemy(std::string)
+0,0,Walk(始めに一匹),600,560,30,30,1.2,0.48,1,graphics/WalkEnemy.png
+1,0,Walk(0の後ろにいる),950,560,30,30,1.2,0.48,1,graphics/WalkEnemy.png
+2,0,Walk(壁に挟まれている),1600,400,30,30,1.2,0.48,1,graphics/WalkEnemy.png
+3,0,Walk(ブロック上を歩いている敵),2400,200,30,30,1.2,0.48,1,graphics/WalkEnemy.png
+4,0,Walk(3の後ろにいる敵),2550,100,30,30,1.2,0.48,1,graphics/WalkEnemy.png
+5,1,Fall(最初のブロック横から落ちてくる),2885,50,30,30,0,0.598,0,graphics/FallEnemy.png
+6,1,Fall(崖の間を落ちる敵),3900,50,30,30,0,0.598,0,Graphics/FallEnemy.png
+7,1,Fall(ジャングルジムの落ちるやつ),4820,0,30,30,0,0.598,0,graphics/FallEnemy.png
+8,1,Fall(ゴール前に落ちてくる敵),6280,0,30,30,0,0.598,0,graphics/FallEnemy.png
+9,2,Fly(常に飛んでいる承太郎),1024,0,30,30,2,0,0,graphics/FlyEnemy.png
+10,3,Jump(最初に飛んでくるぽる),3600,555,30,30,1.2,0.48,1,graphics/JumpEnemy.png
+11,4,Wait(最後の階段に出てくる敵),6050,10,30,30,1.2,0.48,1,graphics/WalkEnemy.png
+12,3,Jump(くぼみの一体目),4850,600,30,30,1.2,0.48,1,graphics/JumpEnemy.png
+13,3,Jump(くぼみの三体目),5150,600,30,30,1.2,0.48,1,graphics/JumpEnemy.png
